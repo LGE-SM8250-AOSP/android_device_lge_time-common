@@ -14,16 +14,16 @@
 # limitations under the License.
 #
 
-COMMON_BETA_PATH := device/lge/beta-common
+COMMON_TIME_PATH := device/lge/time-common
 
-# inherit from common sm8150
--include device/lge/sm8150-common/BoardConfigCommon.mk
+# inherit from common sm8250
+-include device/lge/sm8250-common/BoardConfigCommon.mk
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_BETA_PATH)/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_TIME_PATH)/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/aosp_beta_defconfig
+TARGET_KERNEL_CONFIG := vendor/imelm-perf_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4022337536
@@ -33,4 +33,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 108587851776
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
 # inherit from the proprietary version
--include vendor/lge/betalmdd/BoardConfigVendor.mk
+-include vendor/lge/time-common/BoardConfigVendor.mk

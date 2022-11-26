@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=beta-common
+DEVICE=time-common
 VENDOR=lge
 
 # Load extract_utils and do some sanity checks

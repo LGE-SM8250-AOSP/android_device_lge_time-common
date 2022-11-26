@@ -25,6 +25,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter betalmdd betalm,$(TARGET_DEVICE)),)
+ifneq ($(filter timelmdd timelm,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
