@@ -136,6 +136,25 @@ vendor/lib/libwfdutils_proprietary.so
 vendor/lib/libwfdcommonutils_proprietary.so
 vendor/lib/libwfdmmservice_proprietary.so
 
+#FFU FIRMWARES
+vendor/ffu/FFUMICRON_MT128GASAO4U21_0107.bin
+vendor/ffu/FFUMICRON_MT128GASAO4U21_0108.bin
+vendor/ffu/FFUSAMSUNG_KLUDG4U1EA-B0C1_0500.bin
+vendor/ffu/FFUSAMSUNG_KLUDG4UHDC-B0E1_0200.bin
+vendor/ffu/FFUSAMSUNG_KLUDG8V1EE-B0C1_0400.bin
+vendor/ffu/FFUSAMSUNG_KLUEG8UHDC-B0E1_0200.bin
+vendor/ffu/FFUSAMSUNG_KM2V8001CM-B707_2100.bin
+vendor/ffu/FFUSAMSUNG_KM8V8001JM-B813_2100.bin
+vendor/ffu/FFUSKHYNIX_H28S7Q302BMR_A002.bin
+vendor/ffu/FFUSKHYNIX_H28U62301AMR_D003.bin
+vendor/ffu/FFUSKHYNIX_H28U72301CMR_0004.bin
+vendor/ffu/FFUSKHYNIX_H28U74303AMR_D003.bin
+vendor/ffu/FFUTOSHIBA_THGAF8G9T43BAIRB_0300.bin
+vendor/ffu/FFUWDC_SDINDDH4-128G_1308.bin
+vendor/ffu/FFUWDC_SDINDDH4-256G_1308.bin
+vendor/ffu/FFUWDC_SDINEDK4-128G_1094.bin
+vendor/ffu/FFUWDC_SDINEDK4-256G_1088.bin
+
 # Fingerprint
 vendor/lib64/hw/fingerprint.kona.so
 vendor/lib64/libfpsph.so
