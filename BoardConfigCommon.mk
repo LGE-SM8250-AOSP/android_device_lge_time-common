@@ -23,7 +23,7 @@ COMMON_TIME_PATH := device/lge/time-common
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_TIME_PATH)/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/imelm-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/lineage_timelm_defconfig
 
 # Partitions
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 108587851776
